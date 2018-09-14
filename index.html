@@ -1,0 +1,15 @@
+<html>
+
+<header>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.js"></script>
+    <script src="dist/js/test-amd-module.js"></script>
+</header>
+<body>
+    hello world
+    <script>
+        require(["core"], function (module) {
+            module.init();
+        });
+    </script>
+</body>    
+</html>
